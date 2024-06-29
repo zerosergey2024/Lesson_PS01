@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Паропланы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на сайт про паропланы!</h1>
+Полет на параплане - это удивительное приключение, которое позволяет человеку ощутить себя свободным,
+словно птица в небесах. Паря над прекрасными пейзажами, пароплан позволяет воплотить давнюю мечту человека
+о свободном полете. Стремление к небу, легкость в воздухе и ветер в волосах создают неповторимые ощущения
+и уносят далеко за горизонт. Полет на параплане - это не просто спорт, это искусство ощущать и понимать
+величие небес и возможность свободного полета.
+         </header>
+    <main>
+        <section class="paraglider">
+            <h2>Пароплан в небе</h2>
+             <img src="27.jpg">
+            <div class="sky"></div>
+            <div class="wings"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Паропланы.com</p>
+    </footer>
+</body>
+</html>
+
+
+
+css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.paraglider {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #87CEEB;
+}
+
+.sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #87CEEB;
+}
+
+.wings {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 20px;
+    background-color: #FFD700;
+    border-radius: 50%;
+}
